@@ -27,8 +27,8 @@ e.g.
 2. Activate the plugin through the 'Plugins' screen in WordPress
 
 
-== Changelog ==
+## Changelog ##
 
-= 1.0.0 =
-* Erste Version: Getestet mit Woocommerce 4.2 und WordPress 5.4.1
+### 1.0.0 ###
+Erste Version: Getestet mit Woocommerce 4.2 und WordPress 5.4.1
 
