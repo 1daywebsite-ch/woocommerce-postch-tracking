@@ -1,4 +1,4 @@
-### Woocommerce Post.ch Tracking ###
+# Woocommerce Post.ch Tracking #
 Contributors: AFB
 Requires at least: 4.6
 Tested up to: 5.4.1
