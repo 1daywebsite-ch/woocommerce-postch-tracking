@@ -9,7 +9,9 @@ Anschliessend den Bestellstatus auf "Fertiggestellt" setzen und rechts bei "Best
 Die Sendungsnummer wird daraufhin in der Kundin-E-Mail erscheinen, sowie in ihrem Kundenkonto.
 
 ## Installation ##
-Es gibt folgende zwei Möglichkeiten:
+Oben rechts das Plugin als ZIP-Datei runterladen und das Plugin-Verzeichnis auspacken.
+
+Es gibt folgende zwei Möglichkeiten der Installation:
 
 1. Plugin-Verzeichnis in das Verzeichnis `/wp-content/plugins/` raufladen und anschliessend Plugin in WordPress aktivieren.
 2. Plugin durch "Plugins" - "Installieren" - "Plugin Hochladen" in WordPress raufladen und anschliessend Plugin aktivieren.
