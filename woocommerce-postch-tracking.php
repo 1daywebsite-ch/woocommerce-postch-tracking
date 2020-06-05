@@ -6,9 +6,9 @@
  * Version: 1.0.0
  * Author: AFB
  * Author URI: https://1daywebsite.ch
- * Tested up to: 5.3
+ * Tested up to: 5.4.1
  * WC requires at least: 2.6
- * WC tested up to: 4.1
+ * WC tested up to: 4.2
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
