@@ -2,11 +2,13 @@
 
 ## Beschreibung ##
 
-Einfache Sendungsverfolgung für die Schweizer Post. Unter "Bestellungen" erscheint eine neu Box mit dem Titel "Post.ch Sendungsverfolgung (Tracking)". Einfach den Paketcode der Post für das abzuschickende Paket (Briefe gehen auch) dort eingeben und Speichern mit "Aktualisieren.
+### Einfache Sendungsverfolgung für Sendungen der Schweizer Post (post.ch) ###
+
+In WooCommerce unter "Bestellungen" erscheint neu eine Metabox mit dem Titel "Post.ch Sendungsverfolgung (Tracking)". Einfach den Paketcode der Post für das abzuschickende Paket (Briefe gehen auch) eingeben und mit "Aktualisieren" speichern.
 
 ![post-tracking-eins](post-tracking-eins.jpg)
 
-Anschliessend den Bestellstatus auf "Fertiggestellt" setzen und rechts bei "Bestell Aktionen" "Aktualisieren" klicken. So wird die E-Mail ausgelöst, dass die Bestellung fertig gestellt ist.
+Anschliessend den Bestellstatus auf "Fertiggestellt" setzen und rechts bei "Bestell Aktionen" "Aktualisieren" klicken. So wird die E-Mail ausgelöst, dass die Bestellung fertig gestellt sei.
 
 Die Sendungsnummer wird daraufhin in der Kundin-E-Mail erscheinen, sowie in ihrem Kundenkonto.
 
