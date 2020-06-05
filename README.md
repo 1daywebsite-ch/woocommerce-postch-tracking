@@ -11,11 +11,11 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Beschreibung ==
 
-Woocommerce Post.ch Tracking fügt 
+Einfache Sendungsverfolgung für die Schweizer Post. Unter "Bestellungen" erscheint eine neu Box mit dem Titel "Post.ch Sendungsverfolgung (Tracking)". Einfach den Paketcode der Post für das abzuschickende Paket (Briefe gehen auch) dort eingeben und Speichern mit "Aktualisieren.
 
-g enables two new input fields on the order admin sidebar for use with tracking code and courier data. This is then shown on the my account view order page for customers to see. The order completed email will also contain the tracking and courier information.
+Anschliessend den Bestellstatus auf "Fertiggestellt" setzen und rechts bei "Bestell Aktionen" "Aktualisieren" klicken. So wird die E-Mail ausgelöst, dass die Bestellung fertig gestellt ist.
 
-The links are used whenever the tracking code is displayed.
+Die Sendungsnummer wird daraufhin in der Kundin-E-Mail erscheinen, sowie in ihrem Kundenkonto.
 
 == Installation ==
 
