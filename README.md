@@ -9,13 +9,13 @@ Anschliessend den Bestellstatus auf "Fertiggestellt" setzen und rechts bei "Best
 Die Sendungsnummer wird daraufhin in der Kundin-E-Mail erscheinen, sowie in ihrem Kundenkonto.
 
 ## Installation ##
+Es gibt folgende zwei Möglichkeiten:
 
-1. Plugin-Verzeichnis ins to the `/wp-content/plugins/` Verzeichnis raufladen.
-2. Oder Plugin durch 'Plugins' WordPress installieren.
+1. Plugin-Verzeichnis in das Verzeichnis `/wp-content/plugins/` raufladen und anschliessend Plugin in WordPress aktivieren.
+2. Plugin durch "Plugins" - "Installieren" - "Plugin Hochladen" in WordPress raufladen und anschliessend Plugin aktivieren.
 
 
 ## Changelog ##
 
 ### 1.0.0 ###
 Erste Version: Getestet mit Woocommerce 4.2 und WordPress 5.4.1
-
