@@ -1,14 +1,18 @@
 <?php
 /**
- * Plugin Name: Woocommerce Post.ch Tracking
- * Plugin URI: https://1daywebsite.ch
- * Description: Schweizer Post Sendungsverfolgungscode auf Bestellbestätigung anbringen. Exklusiv für Kunden von 1daywebsite.ch
- * Version: 1.0.0
- * Author: AFB
- * Author URI: https://1daywebsite.ch
- * Tested up to: 5.4.1
- * WC requires at least: 2.6
- * WC tested up to: 4.2
+ * Plugin Name:			Woocommerce Post.ch Tracking
+ * Plugin URI:			https://1daywebsite.ch
+ * Description:			Schweizer Post Sendungsverfolgungscode auf Bestellbestätigung anbringen. Exklusiv für Kunden von 1daywebsite.ch
+ * Version:			1.0.0
+ * Author:			AFB
+ * Author URI:			https://1daywebsite.ch
+ * Tested up to:		5.4.1
+ * WC requires at least: 	3.0
+ * WC tested up to:		4.2
+ * Text Domain:       		woocommerce-postch-tracking
+ * Domain Path: 		/languages
+ * License:           		GPL-2.0+
+ * License URI:       		http://www.gnu.org/licenses/gpl-2.0.txt
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
