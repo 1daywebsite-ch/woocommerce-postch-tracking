@@ -98,7 +98,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			$order = wc_get_order( $orderid );
 			$afbpost_tracking_code = $order->get_meta( '_afbpost_tracking_code');
 			if(!empty(trim($afbpost_tracking_code))) {
-				$afbpost_myaccount_link = "www.post.ch/swisspost-tracking?formattedParcelCodes={$afbpost_tracking_code}";
+				$afbpost_myaccount_link = "https://www.post.ch/swisspost-tracking?formattedParcelCodes={$afbpost_tracking_code}";
 			    echo '<p>' . __('Ihre post.ch Sendungsnummer (Tracking Code) lautet','woocommerce') . ': <b>' . $afbpost_tracking_code.'</b><br>' . 
 				__('Sie könnten die Sendung direkt an dieser Adresse verfolgen','woocommerce') . ':<br><a href="'. $afbpost_myaccount_link .'" class="btn" target="_blank">' . __('Sendung Verfolgen','woocommerce') . '</a></p>';
 			}
@@ -108,7 +108,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	    public function afbpost_action_woocommerce_email_order_meta( $order, $sent_to_admin, $plain_text, $email ) { 
 			if($order->get_status()=="completed"){
 			    $afbpost_tracking_code = $order->get_meta( '_afbpost_tracking_code');
-				$afbpost_order_complete_link = "www.post.ch/swisspost-tracking?formattedParcelCodes={$afbpost_tracking_code}";
+				$afbpost_order_complete_link = "https://www.post.ch/swisspost-tracking?formattedParcelCodes={$afbpost_tracking_code}";
 			    if(!empty(trim($afbpost_tracking_code))) {
 					echo '<p>' . __('Ihre Bestellung wurde abgeschickt. Die post.ch Sendungsnummer (Tracking Code) lautet','woocommerce') . ': <b>' . $afbpost_tracking_code.'</b></p><p>' . __('Sie könnten die Sendung direkt an dieser Adresse verfolgen','woocommerce') . ':<br><a href="'. $afbpost_order_complete_link .'" target="_blank">' . __('Sendung Verfolgen','woocommerce') . '</a></p>';
 			    }
